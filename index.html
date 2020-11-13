@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <title>COVID19</title>
+    
+  </head>
+  <body>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">KSB - INFO COVID 19</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Hubungi Kami</a>
+              </li>             
+            </ul>
+          </div>
+        </div>        
+      </nav>
+      <!-- Akhir Navbar -->
+
+      <div class="container">         
+        <div class="row"> 
+          <div class="col">
+            <h1 style="text-align:center; margin-top:30px; margin-bottom:-20px">KAWAL CORONA VIRUS DISEASED 19</h1>
+            <h4 style="text-align:center; margin-top:15px; margin-bottom:-20px">Global & Indonesia Live</h4>
+          </div>            
+        </div>
+      </div>
+
+      <div class="container" style="-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+      -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+      box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);">
+          <div class="row mt-5">
+              <div class="col">
+                  <h1 style="padding-top:20px; padding-bottom:20px; text-align: center;">DATA GLOBAL</h1>
+              </div>
+          </div> 
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <p><strong>Last Update : </strong><span class="DateTime"></span></p></div>
+            </div>
+        </div>
+
+          <div class="row" style="margin-bottom:20px;">
+            <div class="col">
+              <div class="card" style="border:none;">
+                <img src="https://covid19.mathdro.id/api/og" alt="covid_statistik_global" onError="this.onerror = '' ; this.style.visibility='hidden';"> 
+              </div>               
+            </div>
+          </div> 
+            
+            <div class="row global" style="margin-top:-50px;"></div>                       
+        </div>
+        
+        <div class="container" style="-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+                      -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+                      box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);">
+          <div class="row mt-5">
+              <div class="col">
+                  <h1 style="padding-top:10px; padding-bottom:20px; text-align: center;">DATA INDONESIA</h1>
+              </div>
+          </div>
+          <div class="container">
+              <div class="row">
+                <div class="col">
+                  <p><strong>Last Update : </strong><span class="DateTime2"></span></p></div>
+              </div>
+          </div>          
+
+          <div class="row coronaIndonesia" style="margin-top:-50px;"></div>
+        </div>
+
+        <div class="container" style="margin-top:80px; -webkit-box-shadow: 0px 0px px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75); padding-bottom:20px;">
+          <h1 style="padding-top:20px;">Data Kasus di Indonesia berdasarkan Provinsi</h1>
+            <div class="table-responsive" style="overflow-y: auto; height: 400px;">
+              <table class="table table table-bordered table-hover">
+                <thead class="table-success">
+                    <tr>
+                    <th scope="col">Nomor</th>
+                    <th scope="col">Provinsi</th>
+                    <th scope="col">Positif</th>
+                    <th scope="col">Sembuh</th>
+                    <th scope="col">Meninggal</th>
+                    </tr>
+                </thead>
+                <tbody class="coronaProvinsi">                  
+                </tbody>
+                </table>
+            </div>     
+        </div>
+
+        <div class="container" style="margin-top:80px; -webkit-box-shadow: 0px 0px px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75); padding-bottom:20px;">
+          <h1 style="padding-top:20px;">Data Kasus harian di Indonesia</h1>
+            <div class="table table-responsive" style="overflow-y: auto; height: 400px;">
+              <table class="table table-bordered table-hover">
+                <thead class="table-success">
+                    <tr>
+                    <th scope="col">Hari ke.</th>                  
+                    <th scope="col">Kasus Kumulatif</th>
+                    <th scope="col">Pasien Sembuh</th>
+                    <th scope="col">Pasien Meninggal</th>
+                    <th scope="col">Pasien Dalam Perawatan</th>
+                    <th scope="col">Kasus Baru</th>
+                    <th scope="col">Kasus Diperiksa</th>
+                    <th scope="col">Jumlah Negatif</th>                              
+                    </tr>
+                </thead>
+                <tbody class="coronaHarian">                  
+                </tbody>
+                </table>
+            </div>     
+        </div>
+
+    <!-- Footer -->
+    <footer id="sticky-footer" class="py-4 bg-dark text-white-50 mt-5">
+      <div class="container text-center">
+        <large>Copyright &copy; Dinas Komunikasi dan Informatika, Develop By. Nursyafriady</large>
+      </div>
+    </footer>
+    <!-- Akhir Footer -->
+        
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+    <script src="API_Corona.js"></script>
+  </body>
+</html>
